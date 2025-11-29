@@ -1,5 +1,5 @@
 import axios from "axios";
-const BASE_URL="http://localhost:8500/api/v1/";
+const BASE_URL="https://backend-service-9cj9.onrender.com";
 
 const publicRequest = axios.create({
     baseURL: BASE_URL,
